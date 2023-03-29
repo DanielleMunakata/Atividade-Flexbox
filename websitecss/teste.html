@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website com cabeçalho</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			height: 60px;
+			line-height: 60px;
+			padding: 0 20px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.brand {
+			float: right;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.navigation {
+			float: left;
+			font-size: 18px;
+		}
+
+		.navigation a {
+			color: #fff;
+			display: inline-block;
+			margin-right: 20px;
+			text-decoration: none;
+		}
+
+		.line {
+			background-color: #ccc;
+			height: 1px;
+			margin-top: 60px;
+			width: 100%;
+		}
+
+		.content {
+			margin-top: 61px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="navigation">
+			<a href="#">Cadastro</a>
+			<a href="#">Login</a>
+		</div>
+		<div class="brand">Minha Marca</div>
+	</header>
+	<div class="line"></div>
+	<div class="content">
+		<p>Conteúdo do website aqui.</p>
+	</div>
+</body>
+</html>
